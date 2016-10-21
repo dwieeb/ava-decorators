@@ -1,0 +1,22 @@
+{
+  "name": "ava-decorators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "tsc && ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.16.0",
+    "reflect-metadata": "^0.1.8"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.0-dev.20161020"
+  },
+  "ava": {
+    "babel": {}
+  }
+}
